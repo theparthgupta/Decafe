@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Decafe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <a href="#Recommend">Recommend</a>
+    <a href="#Restaurants">Restaurants</a>
+    <a href="#Cafes">Cafes</a>
+    <a href="#Booking">Booking</a>
+    <a href="#Login">Login</a>
+  </div>
+
+  <!-- Logo and Curtains -->
+  <div class="logo-container">
+    <img src="images/pngegg.png" alt="Curtain" class="curtain-left">
+    <img src="images/file.png" alt="Decafe Logo" class="logo">
+    <img src="images/pngegg2.png" alt="Curtain" class="curtain-right">
+  </div>
+  <div class="tagline">
+    Your Guide To Perfect Spot
+  </div>
+  
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="images/image11.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="images/image12.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="images/image13.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+      <img src="images/image14.jpg" style="width:100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+  <!-- Trending Text -->
+  <h1 style="color: #d3cf7b; text-align: center; margin-top: 20px; font-family: 'Roboto', sans-serif; font-size: 50px; font-weight: bold;">Trending</h1>
+
+
+  <!-- Cards Section -->
+  <div class="card-container">
+    <div class="card">
+      <img src="images/image13.jpg" alt="Restaurant 1">
+      <div class="container">
+        <h3><b>Restaurant 1</b></h3>
+        <p> Italian Cuisine</p>
+        <p>Rating:4.5/5</p>
+        <p>Location: 123 Main St</p>
+        <p>Phone: 123-456-7890</p>
+        <p>Hours: 11 AM - 10 PM</p>
+        <p>Menu: $150 - $300</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/image13.jpg" alt="Restaurant 2">
+      <div class="container">
+        <h3><b>Restaurant 2</b></h3>
+        <p>Cozy and Delicious</p>
+        <p>Rating:4.7/5</p>
+        <p>Location: 456 Elm St</p>
+        <p>Phone: 987-654-3210</p>
+        <p>Hours: 9 AM - 11 PM</p>
+        <p>Menu: $200 - $400</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/image13.jpg" alt="Restaurant 3">
+      <div class="container">
+        <h3><b>Restaurant 3</b></h3>
+        <p>Modern Dining</p>
+        <p>Rating:4.9/5</p>
+        <p>Location: 789 Oak St</p>
+        <p>Phone: 555-123-4567</p>
+        <p>Hours: 7 AM - 11 PM</p>
+        <p>Menu: $300 - $600</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/image13.jpg" alt="Restaurant 4">
+      <div class="container">
+        <h3><b>Restaurant 4</b></h3>
+        <p>Best Seafood in Town</p>
+        <p>Rating:4.8/5</p>
+        <p>Location: 321 Maple St</p>
+        <p>Phone: 777-888-9999</p>
+        <p>Hours: 6 AM - 10 PM</p>
+        <p>Menu: $250 - $500</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/image13.jpg" alt="Restaurant 5">
+      <div class="container">
+        <h3><b>Restaurant 5</b></h3>
+        <p>Continental Cuisine</p>
+        <p>Rating:4.3/5</p>
+        <p>Location: 35 DownT</p>
+        <p>Phone: 145-976-8790</p>
+        <p>Hours: 09 AM - 11 PM</p>
+        <p>Menu: $150 - $400</p>
+      </div>
+    </div>
+  </div>
+  <div class="location">
+    Search by Location
+  </div>
+  <div class="small-card-container">
+    <div class="small-card">
+      <p>Chandigarh</p>
+      <span class="arrow">&#128378;</span>
+    </div>
+    <div class="small-card">
+      <p>Mohali</p>
+      <span class="arrow">&#127970;</span>
+    </div>
+    <div class="small-card">
+      <p>Zirakpur</p>
+      <span class="arrow">&#127981;</span>
+    </div>
+    <div class="small-card">
+      <p>Panchkula</p>
+      <span class="arrow">&#128329;</span>
+    </div>
+    <div class="small-card">
+      <p>Kharar</p>
+      <span class="arrow">&#127891;</span>
+    </div>
+    <div class="small-card">
+      <p>Jammu</p>
+      <span class="arrow">&#9819;</span>
+    </div>
+    <div class="small-card">
+      <p>New Delhi</p>
+      <span class="arrow">&#128645;</span>
+    </div>
+    <div class="small-card">
+      <p>Amritsar</p>
+      <span class="arrow">&#9772;</span>
+    </div>
+  </div>
+  
+  <div class="mission">
+    Our Mission
+  </div>
+  <div class="paragraph">
+    <p>
+      Welcome to Decafe, your ultimate guide to discovering the best places to hang out. Whether you're looking for a cozy café or a fine dining restaurant, we provide all the information you need to make the perfect choice. From ratings and reviews to location, ambiance, prices, and more, Decafe ensures you have everything at your fingertips for a memorable culinary experience.
+      Deciding what to eat can be challenging, and choosing the right spot for an outing can be even harder. That's where Decafe comes in. Our flagship recommendation feature suggests the best matches based on your preferences, making it easy for you to explore and learn about all the dining spots around you. Plus, you can book your reservations directly through our platform.
+      We hope Decafe helps you in every way possible, making your decision-making process smoother and more enjoyable.
+    </p>
+  </div>
+  <div class="footer">
+    <img src="images/logo.png" alt="Decafe Logo" class="footer-logo">
+    <div class="language-select">
+      <label for="languages">Choose a language:</label>
+      <select id="languages">
+        <option value="English">English</option>
+        <option value="Hindi">Hindi</option>
+      </select>
+    </div>
+    <div class="contact-details">
+      <h3>Contact Us</h3>
+      <p>Email: info@decafe.com</p>
+      <p>Phone: +123 456 7890</p>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <div class="social-links">
+        <a href="#facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#linkedin"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
